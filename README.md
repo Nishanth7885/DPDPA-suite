@@ -74,6 +74,10 @@ const consent = await dpdpa.consents.create({
 - **Next:** AI data discovery for EHR and LIS, breach response runbooks, FHIR and HL7 connectors, DPO copilot preview
 - **Later:** Consent Manager interoperability, DPIA and audit tooling for Significant Data Fiduciaries, self-hosted deployment
 
+## Website and domain
+
+The DPDPA Suite website is currently live at **[printandplan.ink](https://printandplan.ink)**. This is a temporary domain. A professional domain for the startup is under development and will be announced soon. Once it launches, all traffic to printandplan.ink will be redirected to the new domain.
+
 ## Early access
 
 We are looking for hospitals, diagnostic chains, health tech teams and other sensitive-data businesses ready to get ahead of May 2027. [Open an early access request](https://github.com/nishanth7885/dpdpa-suite/issues/new?title=Early%20access%20request) and tell us about your stack.
