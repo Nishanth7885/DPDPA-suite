@@ -85,6 +85,12 @@
     .skip { position: absolute; left: -999px; }
     .skip:focus { left: 16px; top: 16px; background: var(--surface); padding: 8px 12px; z-index: 10; }
 
+    .domain-note {
+      background: var(--accent-soft); color: var(--text);
+      font-size: 14px; text-align: center; padding: 9px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .domain-note b { color: var(--accent); }
     /* Header */
     header.site {
       position: sticky; top: 0; z-index: 5;
@@ -267,6 +273,10 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
+
+  <div class="domain-note" role="note">
+    <b>Temporary domain:</b> printandplan.ink is a temporary home for DPDPA Suite. Our professional domain is under development and will be announced soon, after which all traffic here will be redirected there.
+  </div>
 
   <header class="site">
     <div class="wrap nav">
@@ -586,7 +596,7 @@ scan = client.discovery.<span class="f">scan</span>(
         <a class="logo" href="#top">DPDPA Suite</a>
         <p>© <span id="yr">2026</span> DPDPA Suite. Early-stage software.</p>
       </div>
-      <p class="disclaimer">DPDPA Suite is an early-stage product under active development. Features described here may change before general availability. Nothing on this page is legal advice. Penalty amounts and timelines are summarised from the Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025; refer to the official notifications from MeitY for authoritative text.</p>
+      <p class="disclaimer">This site is temporarily hosted at printandplan.ink while our professional domain is prepared; all traffic will be redirected to the new domain once it is announced. DPDPA Suite is an early-stage product under active development. Features described here may change before general availability. Nothing on this page is legal advice. Penalty amounts and timelines are summarised from the Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025; refer to the official notifications from MeitY for authoritative text.</p>
     </div>
   </footer>
 
